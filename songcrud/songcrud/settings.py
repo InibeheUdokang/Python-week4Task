@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # my app
     "musicapp",
+    # thirdparty app
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
